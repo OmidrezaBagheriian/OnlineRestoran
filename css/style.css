@@ -1,0 +1,56 @@
+@import "font.css";
+
+.sidenav a{
+	text-decoration: none;
+	font-family: IRANSans;
+
+
+}
+
+
+.nav-wrapper > a {
+	text-decoration: none;
+	font-family: IRANSans;
+}
+
+.nav-wrapper > a:hover {
+	color: white;
+	font-family: IRANSans;
+
+}
+
+.hvr-grow {
+    text-decoration: none;
+	/*direction: rtl;*/
+	font-family: IRANSans;
+
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+	text-decoration: none;
+	color: white;
+	font-family: IRANSans;
+
+}
+
+.slider .indicators .indicator-item.active{
+	background-color: #ee6e73 !important;
+}
+
+@media(max-width : 992px) {
+
+	.nav-wrapper > a:hover {
+		color: black;
+	}
+	
+}
+
+@media(min-width : 992px) {
+
+	.nav-wrapper > a {
+		padding-left: 35px;
+	}
+	
+}
